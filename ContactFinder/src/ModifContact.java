@@ -1,6 +1,4 @@
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
-
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -14,6 +12,10 @@ import javax.swing.JButton;
 
 public class ModifContact extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7396252159736290750L;
 	private JPanel contentPane;
 	private JTextField Nom;
 	private JTextField Prenom;
@@ -190,12 +192,12 @@ public class ModifContact extends JFrame {
 
 
 		JLabel logo = new JLabel("New label");
-		logo.setIcon(new ImageIcon("C:\\Users\\Alexandre\\Desktop\\logo.jpg"));
+		logo.setIcon(new ImageIcon("C:\\Users\\Alexandre\\OneDrive\\SIO\\ContactFinder\\logo.jpg"));
 		logo.setBounds(10, 11, 150, 134);
 		getContentPane().add(logo);
-
+		
 		JLabel font = new JLabel("New label");
-		font.setIcon(new ImageIcon("C:\\Users\\Alexandre\\Desktop\\font.jpg"));
+		font.setIcon(new ImageIcon("C:\\Users\\Alexandre\\OneDrive\\SIO\\ContactFinder\\font.jpg"));
 		font.setBounds(0, 0, 794, 571);
 		getContentPane().add(font);
 	}

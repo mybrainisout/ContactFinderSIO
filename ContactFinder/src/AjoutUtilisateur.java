@@ -100,12 +100,12 @@ public class AjoutUtilisateur extends JFrame {
 		contentPane.add(lblPassword2);
 		
 		JLabel logo = new JLabel("New label");
-		logo.setIcon(new ImageIcon("C:\\Users\\Alexandre\\Desktop\\logo.jpg"));
+		logo.setIcon(new ImageIcon("C:\\Users\\Alexandre\\OneDrive\\SIO\\ContactFinder\\logo.jpg"));
 		logo.setBounds(10, 11, 150, 134);
 		getContentPane().add(logo);
 		
 		JLabel font = new JLabel("New label");
-		font.setIcon(new ImageIcon("C:\\Users\\Alexandre\\Desktop\\font.jpg"));
+		font.setIcon(new ImageIcon("C:\\Users\\Alexandre\\OneDrive\\SIO\\ContactFinder\\font.jpg"));
 		font.setBounds(0, 0, 794, 571);
 		getContentPane().add(font);
 	}
